@@ -39,13 +39,13 @@ Custom CPU triggers were configured to simulate NOC-style alert escalation.
 
 A custom NOC dashboard provides a centralized view of server health, active/resolved alarms, resource utilization, and network traffic.
 
-![Zabbix Monitoring Dashboard](screenshots/dashboard.png)
+![Zabbix Monitoring Dashboard](Dashboard.png)
 
 ## CPU Monitoring
 
 Under normal conditions, CPU utilization remains low and provides a baseline for comparison during incidents.
 
-![Normal CPU Utilization](screenshots/normal-utilization.png)
+![Normal CPU Utilization](NormalUtilization.png)
 
 A controlled CPU stress test was performed to simulate a production performance incident. CPU utilization increased to approximately 100%, crossing the configured High and Disaster thresholds.
 
