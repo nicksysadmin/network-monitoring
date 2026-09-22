@@ -45,7 +45,7 @@ A custom NOC dashboard provides a centralized view of server health, active/reso
 
 Under normal conditions, CPU utilization remains low and provides a baseline for comparison during incidents.
 
-![Normal CPU Utilization](NormalUtilization.png)
+![Normal CPU Utilization](chart.png)
 
 A controlled CPU stress test was performed to simulate a production performance incident. CPU utilization increased to approximately 100%, crossing the configured High and Disaster thresholds.
 
