@@ -55,7 +55,7 @@ A controlled CPU stress test was performed to simulate a production performance 
 
 Zabbix detected the sustained CPU utilization and automatically generated both High and Disaster severity events.
 
-![CPU Alarms](screenshots/cpu-alarms.png)
+![CPU Alarms](cpu_alarms.png)
 
 This demonstrates automated threshold-based monitoring rather than relying on manual observation of system performance.
 
@@ -63,7 +63,7 @@ This demonstrates automated threshold-based monitoring rather than relying on ma
 
 The alert was acknowledged within Zabbix and an incident note was added to document the troubleshooting process.
 
-![Acknowledged Incident](screenshots/acknowledged.png)
+![Acknowledged Incident](acknowledged.png)
 
 This simulates a common NOC workflow:
 
@@ -73,7 +73,7 @@ This simulates a common NOC workflow:
 
 After the CPU stress condition was removed, utilization returned to its normal baseline. Zabbix automatically detected the recovery condition and marked the incidents as resolved.
 
-![Resolved Incident](screenshots/resolved.png)
+![Resolved Incident](resolved.png)
 
 ## Skills Demonstrated
 
