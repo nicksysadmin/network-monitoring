@@ -49,13 +49,13 @@ Under normal conditions, CPU utilization remains low and provides a baseline for
 
 A controlled CPU stress test was performed to simulate a production performance incident. CPU utilization increased to approximately 100%, crossing the configured High and Disaster thresholds.
 
-![CPU Spike](screenshots/cpu-spike.png)
+![CPU Spike](CPUSpike.png)
 
 ## Alert Detection
 
 Zabbix detected the sustained CPU utilization and automatically generated both High and Disaster severity events.
 
-![CPU Alarms](cpu_alarms.png)
+![CPU Alarms](CPU_Alarmspng.png)
 
 This demonstrates automated threshold-based monitoring rather than relying on manual observation of system performance.
 
@@ -63,7 +63,7 @@ This demonstrates automated threshold-based monitoring rather than relying on ma
 
 The alert was acknowledged within Zabbix and an incident note was added to document the troubleshooting process.
 
-![Acknowledged Incident](acknowledged.png)
+![Acknowledged Incident](Acknolowedged.png)
 
 This simulates a common NOC workflow:
 
@@ -73,7 +73,7 @@ This simulates a common NOC workflow:
 
 After the CPU stress condition was removed, utilization returned to its normal baseline. Zabbix automatically detected the recovery condition and marked the incidents as resolved.
 
-![Resolved Incident](resolved.png)
+![Resolved Incident](Resolved.png)
 
 ## Skills Demonstrated
 
